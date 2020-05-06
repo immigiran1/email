@@ -11,10 +11,10 @@ $(document).ready(function(){
 		statusElm.empty()
 
 		if(email.length > 5 && email.includes("@") && email.includes(".")){
-			statusElm.append("email is valid")
+			statusElm.append("")
 
 
-			event.preventDefault()
+			// event.preventDefault()
 		}else {statusElm.append("email is not valid");
 			
 		}
