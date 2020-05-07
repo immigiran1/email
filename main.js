@@ -14,7 +14,7 @@ $(document).ready(function(){
 			statusElm.append('')
 
 
-			event.preventDefault()
+// 			event.preventDefault()
 		}else {statusElm.append(" ایمیل اشتباه است. لطفا دوباره را بنویسید.");
 
 
