@@ -7,9 +7,8 @@ label, input, textarea{ display: block;
 
 body{
 
-background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-}
+background: rgb(229,238,174);
+background: radial-gradient(circle, rgba(229,238,174,1) 0%, rgba(237,101,97,1) 0%, rgba(0,0,0,1) 0%, rgba(57,29,28,1) 100%, rgba(0,0,0,1) 100%);}
 
 
 
@@ -25,8 +24,29 @@ label {
     margin-bottom: 15px;
 }
 
-h2{ color: black; }
+h2{ color: #cd3935; }
 label{color: white;}
+
+a{ color: white;
+text-decoration: none;
+
+ }
+
+ a:hover, a:active {
+  color: red;
+}
+
+
+li{color: white;  list-style: none; text-align: right; margin-right: 5%;}
+h3, h4{ color: white;}
+
+button:hover{ background-color: red;  }
+
+input, textarea{ text-align: right; }
+
+
+
+
 
 
 
