@@ -11,14 +11,11 @@ $(document).ready(function(){
 		statusElm.empty()
 
 		if(email.length > 5 && email.includes("@") && email.includes(".")){
-			statusElm.append('')
+			statusElm.append("")
 
 
-// 			event.preventDefault()
-		}else {statusElm.append(" ایمیل اشتباه است. لطفا دوباره را بنویسید.");
-
-
-
+			// event.preventDefault()
+		}else {statusElm.append("email is not valid");
 			
 		}
 	});
