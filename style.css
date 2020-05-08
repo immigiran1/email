@@ -5,11 +5,25 @@ label, input, textarea{ display: block;
 
 
 
-body{
+body{ background-image: url("");
+background-color: black;
+background-repeat:no-repeat;
+background-size: cover;
+transition: background-color 1s;
+background-image: linear-gradient(black, black),
 
-background: rgb(229,238,174);
-background: radial-gradient(circle, rgba(229,238,174,1) 0%, rgba(237,101,97,1) 0%, rgba(0,0,0,1) 0%, rgba(57,29,28,1) 100%, rgba(0,0,0,1) 100%);}
 
+
+
+
+}
+
+
+
+background-image{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 
 
 body {
@@ -24,27 +38,31 @@ label {
     margin-bottom: 15px;
 }
 
-h2{ color: #cd3935; }
+h2{ color: white; }
 label{color: white;}
 
 a{ color: white;
 text-decoration: none;
+margin-top: 5%;
 
  }
 
  a:hover, a:active {
-  color: red;
+  color: yellow;
+
 }
 
 
-li{color: white;  list-style: none; text-align: right; margin-right: 5%;}
+li{color: white;  list-style: none; text-align: right; margin-right: 31%;}
 h3, h4{ color: white;}
 
-button:hover{ background-color: red;  }
+button:hover{ background-color: yellow;  }
 
-input, textarea{ text-align: right; }
+input, textarea{ text-align: right; 
+    width: 300px;
+} 
 
-
+p{color: white; margin-top: 5%;}
 
 
 
