@@ -10,6 +10,7 @@ $(document).ready(function(){
 		var age=$(".age").val()
 		var education=$(".education").val()
 		var ielts=$(".ielts").val()
+		var work=$(".work").val()
 		var single=$(".single").val()
         var son=$(".single").val()
         var porpus=$(".porpus").val()
